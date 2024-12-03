@@ -4,3 +4,4 @@ myenv
 baseline.py
 dummy_predictions.csv
 logistic_predictions.csv
+.ipynb_checkpoints
