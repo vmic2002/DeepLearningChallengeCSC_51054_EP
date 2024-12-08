@@ -5,3 +5,5 @@ baseline.py
 dummy_predictions.csv
 logistic_predictions.csv
 .ipynb_checkpoints
+.venv
+sub-event-detection-in-twitter-streams.zip
