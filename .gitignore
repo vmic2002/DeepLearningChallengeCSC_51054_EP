@@ -5,3 +5,8 @@ baseline.py
 dummy_predictions.csv
 logistic_predictions.csv
 .ipynb_checkpoints
+.venv
+full_glove_embeddings.csv
+preprocessed_data.csv
+sub-event-detection-in-twitter-streams.zip
+submissions
