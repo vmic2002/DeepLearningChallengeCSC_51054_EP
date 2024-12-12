@@ -1,14 +1,5 @@
 # Group Challenge for class CSC_51054_EP - Machine & Deep Learning at École Polytechnique
-The notebook used for this challenge is named `Group_challenge_weight_watchers.ipynb`. To run it, the following libraries are required:
-```
-numpy
-torch
-pandas
-nltk
-gensim
-```
-
-In addition, it requires the presence of the folders `train_tweets` and `eval_tweets` in this directory. This can be achieved by unzipping the data provided at `https://www.kaggle.com/competitions/sub-event-detection-in-twitter-streams` to this directory. 
+ongoing
 
 ## Notes for running alternate feature notebooks
 The notebooks used for alternate feature representations use an additional library not required for the main notebook, `swifter`, which is just used to speed up some processing of dataframes through parallelization. It can be installed using
