@@ -1,2 +1,2 @@
 # Group Challenge for class CSC_51054_EP - Machine & Deep Learning at École Polytechnique
-ongoing
+The section Data preprocessing and feature extractions loads the training files, preprocesses them and creates the tweet embeddings to make a data frame usable by the models. The data frame is then parsed between a training and a testing set, which will be used in the next section to find the best hyperparameters. Then, the section For Kaggle Submission loads and preprocesses the evaluation files the same way as for the training files, trains the final model on the whole training data frame (train set + test set), predict the events of the evaluating set, and output the result in the file our_predictions.csv.
