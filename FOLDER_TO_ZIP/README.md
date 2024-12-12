@@ -2,6 +2,8 @@
 
 Here is the submissions of the Group Weight Watchers on the Data Challenge on sub-event detection.
 
+*Note: before running any code, make sure to add the `\eval_tweets` and `\train_tweets` folders with their respective contents in the `\code` folder.
+
 The `code` folder contains six notebooks:
  - `Challenge_weight_watchers_main.ipynb` contains the main code for data preprocessing and building of our final model.
  - `Challenge_weight_watchers_additional_models.ipynb` contains additional code for observation and model testing.
