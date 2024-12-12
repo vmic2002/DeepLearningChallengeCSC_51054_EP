@@ -7,3 +7,5 @@ logistic_predictions.csv
 .ipynb_checkpoints
 .venv
 sub-event-detection-in-twitter-streams.zip
+full_glove_embeddings.csv
+preprocessed_data.csv
