@@ -39,17 +39,16 @@ The most promising models are then used in the section <ins>Application of the m
 
 ### Challenge_weight_watchers_alternative
 
-The notebooks for which these notes apply are:
- * `Challenge_weight_watchers_alternative_mean_stdev_agg.ipynb`
- * `Challenge_weight_watchers_alternative_n_gram_vectors.ipynb`
- * `Challenge_weight_watchers_alternative_long_match_sequence.ipynb`
- * `Challenge_weight_watchers_alternative_period_sequence.ipynb`
+The notebook for which these notes apply is:
+ * `Challenge_weight_watchers_alternative_features.ipynb`
 
-The four notebooks use an additional library not required for the main and additional notebook, `swifter`, which is just used to speed up some processing of dataframes through parallelization. It can be installed using ```pip install swifter```.
+Each main section ("Alternative Features X", where X$\in \{1,2,3,4\}$), is originally a separate notebook and is intended to be run separately from the other sections.
 
-These notebooks also assume a gpu present on the system, which is accessed using `cuda:1` (i.e., the code will work without modification only if there is more than one CUDA device present). To change this, change the line in each that says: `gpu = torch.device('cuda:1')` to whichever device you would like to run on.
+The four sections use an additional library not required for the main and additional notebook, `swifter`, which is just used to speed up some processing of dataframes through parallelization. It can be installed using ```pip install swifter```.
 
-Note that these notebooks were created primarily to run experiments, and thus are not thoroughly edited for readability.
+The notebook is also optimized to run on a GPU, but will run on the CPU as currently written. To change this, change the line in each that says: `gpu = torch.device('cpu')` to whichever device you would like to run on.
+
+Note that this notebook was created primarily to run experiments, and thus are not thoroughly edited for readability.
 
 **Weight Watchers**
 Jonas BERGER
