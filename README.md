@@ -16,5 +16,3 @@ The notebooks for which these notes apply are:
  * `n_gram_vectors.ipynb`
  * `long_match_sequence.ipynb`
  * `period_sequence.ipynb`
-
-Note that these notebooks were created primarily to run experiments, and thus are not thoroughly edited for readability.
