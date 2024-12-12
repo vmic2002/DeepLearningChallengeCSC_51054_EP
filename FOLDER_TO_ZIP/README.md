@@ -4,10 +4,10 @@ Here is the submissions of the Group Weight Watchers on the Data Challenge on su
 
 *Note: before running any code, make sure to add the `\eval_tweets` and `\train_tweets` folders with their respective contents in the `\code` folder.
 
-The `code` folder contains six notebooks:
+The `code` folder contains three notebooks:
  - `Challenge_weight_watchers_main.ipynb` contains the main code for data preprocessing and building of our final model.
  - `Challenge_weight_watchers_additional_models.ipynb` contains additional code for observation and model testing.
- - The four `Challenge_weight_watchers_alternative_[...].ipynb` contains test for alternative features representations.
+ - `Challenge_weight_watchers_alternative_features.ipynb` contains test for alternative features representations.
 
 The file `our_predictions.csv` is the submission we used for our final score on Kaggle. Every details about its creation can be found on `Challenge_weight_watchers_report.pdf`.
 
@@ -37,10 +37,7 @@ The section <ins>Model Training</ins> contains a PCA representation of the data,
 The most promising models are then used in the section <ins>Application of the models</ins>, where they are trained on the whole training dataset and submit a .csv file in the `\test_submissions`, to be sent to Kaggle.
 
 
-### Challenge_weight_watchers_alternative
-
-The notebook for which these notes apply is:
- * `Challenge_weight_watchers_alternative_features.ipynb`
+### Challenge_weight_watchers_alternative_features
 
 Each main section ("Alternative Features X", where X$\in \{1,2,3,4\}$), is originally a separate notebook and is intended to be run separately from the other sections.
 
@@ -48,7 +45,7 @@ The four sections use an additional library not required for the main and additi
 
 The notebook is also optimized to run on a GPU, but will run on the CPU as currently written. To change this, change the line in each that says: `gpu = torch.device('cpu')` to whichever device you would like to run on.
 
-Note that this notebook was created primarily to run experiments, and thus are not thoroughly edited for readability.
+Note that this notebook was created primarily to run experiments, and thus is not thoroughly edited for readability.
 
 **Weight Watchers**
 Jonas BERGER
