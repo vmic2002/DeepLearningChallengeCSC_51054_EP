@@ -17,7 +17,7 @@ There are also a few subfolders:
 
 The notebooks make use of scikit_learn, Pandas, NumPy, PyTorch, NLTK and Gensim. They also downloads the *stopwords* and *wordnet* list from NLTK, and the *glove-twitter-200* model from GenSim.
 
-### Challenge_weight_watchers_main
+### Challenge_weight_watchers_main - LSTM
 
 This notebook is made to be run in order.
 The section <ins>Data preprocessing and feature extractions</ins> loads the training files, preprocesses them and creates the tweet embeddings to make a data frame usable by the models. The data frame is then parsed between a training and a testing set, which will be used in the next section to find the best hyperparameters.
