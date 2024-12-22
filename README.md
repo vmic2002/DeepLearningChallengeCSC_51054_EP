@@ -23,6 +23,8 @@ This notebook is made to be run in order.
 The section <ins>Data preprocessing and feature extractions</ins> loads the training files, preprocesses them and creates the tweet embeddings to make a data frame usable by the models. The data frame is then parsed between a training and a testing set, which will be used in the next section to find the best hyperparameters.
 Then, the section <ins>For Kaggle Submission</ins> loads and preprocesses the evaluation files the same way as for the training files, trains the final model on the whole training data frame (train set + test set), predict the events of the evaluating set, and output the result in the file `our_predictions.csv`. This file is supposed to be the final submission of our model and should **not** be moved to the `\test_submissions` folder with the others.
 
+<img width="584" alt="Screenshot 2024-12-22 at 10 22 59 AM" src="https://github.com/user-attachments/assets/8f1df0b7-9192-4c85-beaf-85e1adda815d" />
+
 ### Challenge_weight_watchers_additional_models
 
 The section <ins>Data preprocessing and feature extractions</ins> is the same as in the maincode, except for a few lines of code, as it preprocess the evaluation dataset at the same time, and the used dataframe is a little different. ***It can be skipped as it saves the preprocessed data in files that are loaded in the next sections.*** This is done to avoid preprocessing when working on the models.
